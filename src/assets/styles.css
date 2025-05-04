@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #d9e4f5);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #123456;
+    margin-bottom: 1rem;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .stats-bar {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .stats {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .stats span.low { color: green; }
+  .stats span.medium { color: orange; }
+  .stats span.high { color: red; }
+  
+  .incident-list {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .incident-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .incident-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .incident-card .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .badge {
+    padding: 0.3rem 0.7rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .badge.low { background: green; }
+  .badge.medium { background: orange; }
+  .badge.high { background: red; }
+  
+  .incident-form {
+    margin-top: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .incident-form input,
+  .incident-form textarea,
+  .incident-form select {
+    width: 100%;
+    padding: 0.6rem;
+    margin: 0.5rem 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .incident-form button {
+    padding: 0.6rem 1.2rem;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
