@@ -42,6 +42,6 @@ A visually engaging and functional React + TypeScript dashboard that tracks real
 ### 1️⃣ Clone and Install
 
 ```bash
-git clone https://github.com/your-username/ai-safety-dashboard.git
+git clone https://github.com/vivekchandnirala/AI-Safety-Incident-Dashboard
 cd ai-safety-dashboard
 npm install
