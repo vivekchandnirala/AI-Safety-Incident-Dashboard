@@ -18,8 +18,6 @@ A visually engaging and functional React + TypeScript dashboard that tracks real
 
 ## 📸 Screenshots
 
-> Replace below images with your own if needed
-
 ### 💻 Laptop View
 ![Laptop View](./screenshots/laptop-view.png)
 
